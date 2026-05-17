@@ -63,25 +63,3 @@ Open the local URL shown by Vite, usually:
 ```text
 http://localhost:5173
 ```
-
-## How to test quickly
-
-1. Enter formula: `x1 & x2`
-2. Enter variable order: `x1,x2`
-3. The correct BDD should show:
-   - `x1 = 0` goes to terminal `0`
-   - `x1 = 1` goes to `x2`
-   - `x2 = 0` goes to terminal `0`
-   - `x2 = 1` goes to terminal `1`
-
-This means the formula is true only when both `x1` and `x2` are true.
-
-## Latest UI changes
-
-- Reset now clears the Boolean Formula input instead of restoring `x1 & x2`.
-- BDD animation speed was slowed down so each construction step is easier to follow.
-- Removed the BDD Explanation card and Reference-based Features card from the right panel.
-- Step-by-step Construction now keeps previous steps visible and highlights the latest/current step.
-
-
-Update: The Step-by-step Construction panel was removed. The right panel now only shows Node Details.
