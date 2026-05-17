@@ -2,9 +2,7 @@
 
 This project is a React + Vite web application that converts Boolean formulas into a reduced Binary Decision Diagram (BDD / ROBDD).
 
-## Added reference-based UI improvements
-
-The web interface was improved to look and behave more like an interactive BDD visualization tool:
+## Web functionality
 
 - Formula input panel
 - Variable ordering input
